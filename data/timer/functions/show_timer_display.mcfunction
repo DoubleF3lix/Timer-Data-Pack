@@ -1,0 +1,1 @@
+scoreboard players set $hide_display timer.config 0

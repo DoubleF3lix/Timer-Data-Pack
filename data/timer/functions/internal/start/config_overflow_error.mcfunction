@@ -1,0 +1,2 @@
+tellraw @s ["", {"text": "Error (could not start):", "bold": true, "color": "red"}, {"text": " "}, {"text": "Maximum time allowed is 1789569m 42s", "color": "gray"}]
+scoreboard players set #no_flag:start timer.main 1
