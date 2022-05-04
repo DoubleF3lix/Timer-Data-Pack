@@ -6,4 +6,4 @@ scoreboard players operation #temp timer.main *= $20 timer.const
 scoreboard players operation $tick timer.main += #temp timer.main
 
 scoreboard players set $enabled timer.main 1
-scoreboard players set $paused timer 0
+scoreboard players set $paused timer.main 0
