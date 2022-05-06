@@ -1,7 +1,6 @@
 {
     "pack": {
-      "pack_format": 9,
-      "description": "Timer Utility Data Pack"
+        "pack_format": 9,
+        "description": "Timer Data Pack"
     }
-  }
-  
+}
