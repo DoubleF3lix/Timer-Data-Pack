@@ -31,7 +31,7 @@ execute if score $seconds timer.main matches 10.. run title @a actionbar [{"text
 ```
 
 `new_minute.json` is a callback which runs when there's a new minute on the timer. Given this knowledge, can you guess what `new_second.json` does? 
-Note that these callbacks will run for *every* new minutes and second, so 0:00 will trigger them both. I didn't bother testing that though, and the timer should automatically stop once it finishes, but if you're reading this value every tick it may be something to watch out for. 
+Note that these callbacks will run for *every* new minute and second, so 0:00 will trigger them both. I didn't bother testing that though, and the timer should automatically stop once it finishes, but if you're reading this value every tick it may be something to watch out for. 
 
 Oh I almost forgot, there's also fancy *c o n t r o l* stuff. 
 Here's a quick rundown of what the functions do:
